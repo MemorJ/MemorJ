@@ -495,6 +495,38 @@ body {
   margin: 0 auto;
 }
 
+/* keychains */
+
+.keychain-section {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.keychain-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2b2b2b;
+}
+
+.keychain-image-wrapper {
+  display: inline-block;
+}
+
+.keychain-image {
+  max-width: 100%;
+  width: 370px;
+  border-radius: 18px;
+  box-shadow: 0 0 35px rgba(210, 120, 30, 0.6); /* dark orange glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.keychain-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 45px rgba(210, 120, 30, 0.8);
+}
+
+
 /* ==========================================
    How It Works Section
    ========================================== */
